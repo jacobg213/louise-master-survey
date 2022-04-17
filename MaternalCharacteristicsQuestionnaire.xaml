@@ -18,7 +18,7 @@
                 <TextBox x:Name="Age" Text="Indtast alder (år)" InputScope="Number" Height="20" GotFocus="Age_GotFocus" TextWrapping="NoWrap" FontSize="13"/>
                 
                 <Label Content="Højde:" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-                <TextBox x:Name="Height" Text="Indtast Højde (cm)" InputScope="Number" Height="20" GotFocus="Age_GotFocus" TextWrapping="NoWrap" FontSize="13"/>
+                <TextBox x:Name="PersonHeight" Text="Indtast Højde (cm)" InputScope="Number" Height="20" GotFocus="Age_GotFocus" TextWrapping="NoWrap" FontSize="13"/>
 
                 <Label Content="Vægt:" HorizontalAlignment="Right" VerticalAlignment="Center"/>
                 <TextBox x:Name="Weight" Text="Indtast vægt (kg)" InputScope="Number" Height="20" GotFocus="Age_GotFocus" TextWrapping="NoWrap" FontSize="13"/>

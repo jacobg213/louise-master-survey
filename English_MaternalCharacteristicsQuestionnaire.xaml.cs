@@ -39,7 +39,7 @@ namespace WODIA_Reserach_Guide
             {
                 var participant = ((MainWindow)Application.Current.MainWindow).CurrentParticipant;
                 participant.Age = Int32.Parse(Age.Text);
-                participant.Height = Int32.Parse(Height.Text);
+                participant.Height = Int32.Parse(PersonHeight.Text);
                 participant.Weight = Int32.Parse(Weight.Text);
                 participant.GA = Int32.Parse(GA.Text);
                 participant.Race = Race.Text;

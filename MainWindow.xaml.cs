@@ -117,6 +117,7 @@ namespace WODIA_Reserach_Guide
             }
             else
             {
+                ResearchNumber = 1;
                 File.WriteAllText("wodia.config.txt", "0");
             }
         }
@@ -269,8 +270,8 @@ namespace WODIA_Reserach_Guide
             SaveData();
             DisabledList.ForEach(control => control.IsEnabled = true);
 
-            ResearchNumber = ResearchNumber + 1;
             File.WriteAllText("wodia.config.txt", ResearchNumber.ToString());
+            ResearchNumber = ResearchNumber + 1;
 
 
             CurrentLang = "DK";
@@ -478,16 +479,16 @@ namespace WODIA_Reserach_Guide
 
         private void Lang_Click(object sender, RoutedEventArgs e)
         {
-            if (CurrentLang == "DK")
+            switch (CurrentLang)
             {
-                CurrentLang = "EN";
-                Lang.Content = "Dansk";
-            }
-
-            if (CurrentLang == "EN")
-            {
-                CurrentLang = "DK";
-                Lang.Content = "English";
+                case "DK":
+                    CurrentLang = "EN";
+                    Lang.Content = "Dansk";
+                    break;
+                case "EN":
+                    CurrentLang = "DK";
+                    Lang.Content = "English";
+                    break;
             }
         }
     }

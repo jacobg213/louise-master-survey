@@ -1,0 +1,297 @@
+﻿++Solution 'WODIA_Reserach_Guide' ‎(1 of 1 project)
+i:{00000000-0000-0000-0000-000000000000}:WODIA_Reserach_Guide.sln
+++WODIA_Reserach_Guide
+i:{00000000-0000-0000-0000-000000000000}:WODIA_Reserach_Guide
+++Dependencies
+i:{d4335142-7ef1-4060-9761-5419418a80b4}:>222
+++Analyzers
+i:{d4335142-7ef1-4060-9761-5419418a80b4}:analyzers
+++Frameworks
+i:{d4335142-7ef1-4060-9761-5419418a80b4}:frameworks
+++Properties
+i:{d4335142-7ef1-4060-9761-5419418a80b4}:c:\users\gilis\desktop\louise-master-survey-master\properties\
+++PublishProfiles
+i:{d4335142-7ef1-4060-9761-5419418a80b4}:c:\users\gilis\desktop\louise-master-survey-master\properties\publishprofiles\
+++.gitignore
+i:{d4335142-7ef1-4060-9761-5419418a80b4}:c:\users\gilis\desktop\louise-master-survey-master\.gitignore
+++App.xaml
+i:{d4335142-7ef1-4060-9761-5419418a80b4}:c:\users\gilis\desktop\louise-master-survey-master\app.xaml
+++AssemblyInfo.cs
+i:{d4335142-7ef1-4060-9761-5419418a80b4}:c:\users\gilis\desktop\louise-master-survey-master\assemblyinfo.cs
+++English_ExperienceQuestionnaire.xaml
+i:{d4335142-7ef1-4060-9761-5419418a80b4}:c:\users\gilis\desktop\louise-master-survey-master\english_experiencequestionnaire.xaml
+++English_ExperienceQuestionnaire.xaml.cs
+i:{d4335142-7ef1-4060-9761-5419418a80b4}:c:\users\gilis\desktop\louise-master-survey-master\english_experiencequestionnaire.xaml.cs
+++English_ExperienceQuestionnaire1 .xaml
+++English_ExperienceQuestionnaire1 .xaml.cs
+++English_ExperienceQuestionnaire2.xaml
+i:{d4335142-7ef1-4060-9761-5419418a80b4}:c:\users\gilis\desktop\louise-master-survey-master\english_experiencequestionnaire2.xaml
+++English_MaternalCharacteristicsQuestionnaire.xaml
+i:{d4335142-7ef1-4060-9761-5419418a80b4}:c:\users\gilis\desktop\louise-master-survey-master\english_maternalcharacteristicsquestionnaire.xaml
+++English_MaternalCharacteristicsQuestionnaire.xaml.cs
+i:{d4335142-7ef1-4060-9761-5419418a80b4}:c:\users\gilis\desktop\louise-master-survey-master\english_maternalcharacteristicsquestionnaire.xaml.cs
+++ExperienceQuestionnaire.xaml
+i:{d4335142-7ef1-4060-9761-5419418a80b4}:c:\users\gilis\desktop\louise-master-survey-master\experiencequestionnaire.xaml
+++ExperienceQuestionnaire.xaml.cs
+i:{d4335142-7ef1-4060-9761-5419418a80b4}:c:\users\gilis\desktop\louise-master-survey-master\experiencequestionnaire.xaml.cs
+++ExperienceQuestionnaire1.xaml
+i:{d4335142-7ef1-4060-9761-5419418a80b4}:c:\users\gilis\desktop\louise-master-survey-master\experiencequestionnaire1.xaml
+++ExperienceQuestionnaire1.xaml.cs
+i:{d4335142-7ef1-4060-9761-5419418a80b4}:c:\users\gilis\desktop\louise-master-survey-master\experiencequestionnaire1.xaml.cs
+++ExperienceQuestionnaire2.xaml
+i:{d4335142-7ef1-4060-9761-5419418a80b4}:c:\users\gilis\desktop\louise-master-survey-master\experiencequestionnaire2.xaml
+++ExperienceQuestionnaire2.xaml.cs
+i:{d4335142-7ef1-4060-9761-5419418a80b4}:c:\users\gilis\desktop\louise-master-survey-master\experiencequestionnaire2.xaml.cs
+++MainWindow.xaml
+i:{d4335142-7ef1-4060-9761-5419418a80b4}:c:\users\gilis\desktop\louise-master-survey-master\mainwindow.xaml
+++MainWindow.xaml.cs
+i:{d4335142-7ef1-4060-9761-5419418a80b4}:c:\users\gilis\desktop\louise-master-survey-master\mainwindow.xaml.cs
+++MaternalCharacteristicsQuestionnaire.xaml
+i:{d4335142-7ef1-4060-9761-5419418a80b4}:c:\users\gilis\desktop\louise-master-survey-master\maternalcharacteristicsquestionnaire.xaml
+++Microsoft.CodeAnalysis.CSharp.NetAnalyzers
+i:{d4335142-7ef1-4060-9761-5419418a80b4}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+++Microsoft.CodeAnalysis.NetAnalyzers
+i:{d4335142-7ef1-4060-9761-5419418a80b4}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+++Microsoft.NETCore.App
+i:{d4335142-7ef1-4060-9761-5419418a80b4}:c:\users\gilis\desktop\louise-master-survey-master\microsoft.netcore.app
+++Microsoft.WindowsDesktop.App.WPF
+i:{d4335142-7ef1-4060-9761-5419418a80b4}:c:\users\gilis\desktop\louise-master-survey-master\microsoft.windowsdesktop.app.wpf
+++FolderProfile.pubxml
+i:{d4335142-7ef1-4060-9761-5419418a80b4}:c:\users\gilis\desktop\louise-master-survey-master\properties\publishprofiles\folderprofile.pubxml
+++App.xaml.cs
+i:{d4335142-7ef1-4060-9761-5419418a80b4}:c:\users\gilis\desktop\louise-master-survey-master\app.xaml.cs
+++English_ExperienceQuestionnaire2.xaml.cs
+i:{d4335142-7ef1-4060-9761-5419418a80b4}:c:\users\gilis\desktop\louise-master-survey-master\english_experiencequestionnaire2.xaml.cs
+++MaternalCharacteristicsQuestionnaire.xaml.cs
+i:{d4335142-7ef1-4060-9761-5419418a80b4}:c:\users\gilis\desktop\louise-master-survey-master\maternalcharacteristicsquestionnaire.xaml.cs
+++DA.xaml
+++DA.resx
+++DA.Designer.cs
+++EN.resx
+++EN.Designer.cs
+++English_MaternalCharacteristicsQuestionnaire.xaml~RF5973cba.TMP
+++5bs0rasm.mt0~
+++MaternalCharacteristicsQuestionnaire - Copy.xaml
+++MaternalCharacteristicsQuestionnaire - Copy.xaml.cs
+++EnglishMaternalCharacteristicsQuestionnaire - Copy.xaml
+++EnglishMaternalCharacteristicsQuestionnaire - Copy.xaml.cs
+++ExperienceQuestionnaire - Copy.xaml
+++ExperienceQuestionnaire - Copy.xaml.cs
+++ExperienceQuestionnaire1 - Copy.xaml
+++ExperienceQuestionnaire1 - Copy.xaml.cs
+++English_ExperienceQuestionnaire1.xaml
+i:{d4335142-7ef1-4060-9761-5419418a80b4}:c:\users\gilis\desktop\louise-master-survey-master\english_experiencequestionnaire1.xaml
+++English_ExperienceQuestionnaire1.xaml.cs
+i:{d4335142-7ef1-4060-9761-5419418a80b4}:c:\users\gilis\desktop\louise-master-survey-master\english_experiencequestionnaire1.xaml.cs
+++ExperienceQuestionnaire2 - Copy.xaml
+++ExperienceQuestionnaire2 - Copy.xaml.cs
+++Packages
+++Newtonsoft.Json (13.0.1)
+++.vs
+++DesignTimeBuild
+++v17
+++.dtbcache.v2
+++.futdcache.v1
+++bin
+++Debug
+++Release
+++net5.0-windows
+++data.csv
+++QuestionAnswers.csv
+++WODIA_Reserach_Guide.deps.json
+++WODIA_Reserach_Guide.dll
+++WODIA_Reserach_Guide.exe
+++WODIA_Reserach_Guide.pdb
+i:{d4335142-7ef1-4060-9761-5419418a80b4}:c:\users\gilis\desktop\louise-master-survey-master\wodia_reserach_guide.pdb
+++WODIA_Reserach_Guide.runtimeconfig.dev.json
+++WODIA_Reserach_Guide.runtimeconfig.json
+++obj
+++project.assets.json
+++project.nuget.cache
+++WODIA_Reserach_Guide.csproj.nuget.dgspec.json
+++WODIA_Reserach_Guide.csproj.nuget.g.props
+++WODIA_Reserach_Guide.csproj.nuget.g.targets
+++WODIA_Reserach_Guide_emp11bs0_wpftmp.csproj.nuget.dgspec.json
+++WODIA_Reserach_Guide_emp11bs0_wpftmp.csproj.nuget.g.props
+++WODIA_Reserach_Guide_emp11bs0_wpftmp.csproj.nuget.g.targets
+++WODIA_Reserach_Guide_gk4quku4_wpftmp.csproj.nuget.dgspec.json
+++WODIA_Reserach_Guide_gk4quku4_wpftmp.csproj.nuget.g.props
+++WODIA_Reserach_Guide_gk4quku4_wpftmp.csproj.nuget.g.targets
+++WODIA_Reserach_Guide_rpj0ymq5_wpftmp.csproj.nuget.dgspec.json
+++WODIA_Reserach_Guide_rpj0ymq5_wpftmp.csproj.nuget.g.props
+++WODIA_Reserach_Guide_rpj0ymq5_wpftmp.csproj.nuget.g.targets
+++ref
+++refint
+++.NETCoreApp,Version=v5.0.AssemblyAttributes.cs
+++App.g.cs
+++App.g.i.cs
+++apphost.exe
+++English_ExperienceQuestionnaire.g.cs
+++English_ExperienceQuestionnaire.g.i.cs
+++English_ExperienceQuestionnaire1 .g.cs
+++English_ExperienceQuestionnaire1 .g.i.cs
+++English_ExperienceQuestionnaire1.g.i.cs
+++English_ExperienceQuestionnaire2.g.cs
+++English_ExperienceQuestionnaire2.g.i.cs
+++English_MaternalCharacteristicsQuestionnaire.g.cs
+++English_MaternalCharacteristicsQuestionnaire.g.i.cs
+++EnglishContent.baml
+++EnglishContent.g.cs
+++EnglishContent.g.i.cs
+++EnglishMaternalCharacteristicsQuestionnaire - Copy.g.i.cs
+++ExperienceQuestionnaire - Copy.g.i.cs
+++ExperienceQuestionnaire.g.cs
+++ExperienceQuestionnaire.g.i.cs
+++ExperienceQuestionnaire1 - Copy.g.i.cs
+++ExperienceQuestionnaire1.g.cs
+++ExperienceQuestionnaire1.g.i.cs
+++ExperienceQuestionnaire2 - Copy.g.i.cs
+++ExperienceQuestionnaire2.g.cs
+++ExperienceQuestionnaire2.g.i.cs
+++MainWindow.g.cs
+++MainWindow.g.i.cs
+++MaternalCharacteristicsQuestionnaire - Copy.g.i.cs
+++MaternalCharacteristicsQuestionnaire.g.cs
+++MaternalCharacteristicsQuestionnaire.g.i.cs
+++WODIA_Reserach_Guide.AssemblyInfo.cs
+++WODIA_Reserach_Guide.AssemblyInfoInputs.cache
+++WODIA_Reserach_Guide.assets.cache
+++WODIA_Reserach_Guide.csproj.AssemblyReference.cache
+++WODIA_Reserach_Guide.csproj.BuildWithSkipAnalyzers
+++WODIA_Reserach_Guide.csproj.CoreCompileInputs.cache
+++WODIA_Reserach_Guide.csproj.FileListAbsolute.txt
+++WODIA_Reserach_Guide.designer.deps.json
+++WODIA_Reserach_Guide.designer.runtimeconfig.json
+++WODIA_Reserach_Guide.g.resources
+++WODIA_Reserach_Guide.GeneratedMSBuildEditorConfig.editorconfig
+++WODIA_Reserach_Guide.genruntimeconfig.cache
+++WODIA_Reserach_Guide_gk4quku4_wpftmp.AssemblyInfo.cs
+++WODIA_Reserach_Guide_gk4quku4_wpftmp.AssemblyInfoInputs.cache
+++WODIA_Reserach_Guide_gk4quku4_wpftmp.assets.cache
+++WODIA_Reserach_Guide_gk4quku4_wpftmp.GeneratedMSBuildEditorConfig.editorconfig
+++WODIA_Reserach_Guide_MarkupCompile.cache
+++WODIA_Reserach_Guide_MarkupCompile.i.cache
+++WODIA_Reserach_Guide_MarkupCompile.i.lref
+++WODIA_Reserach_Guide_MarkupCompile.lref
+++WODIA_Reserach_Guide_rpj0ymq5_wpftmp.AssemblyInfo.cs
+++WODIA_Reserach_Guide_rpj0ymq5_wpftmp.AssemblyInfoInputs.cache
+++WODIA_Reserach_Guide_rpj0ymq5_wpftmp.assets.cache
+++WODIA_Reserach_Guide_rpj0ymq5_wpftmp.GeneratedMSBuildEditorConfig.editorconfig
+++WODIA_Reserach_Guide_syhfqicv_wpftmp.AssemblyInfo.cs
+++WODIA_Reserach_Guide_syhfqicv_wpftmp.AssemblyInfoInputs.cache
+++WODIA_Reserach_Guide_syhfqicv_wpftmp.assets.cache
+++WODIA_Reserach_Guide_syhfqicv_wpftmp.csproj.BuildWithSkipAnalyzers
+++WODIA_Reserach_Guide_syhfqicv_wpftmp.GeneratedMSBuildEditorConfig.editorconfig
+++WODIA_Reserach_Guide_emp11bs0_wpftmp.AssemblyInfo.cs
+++WODIA_Reserach_Guide_emp11bs0_wpftmp.AssemblyInfoInputs.cache
+++WODIA_Reserach_Guide_emp11bs0_wpftmp.assets.cache
+++WODIA_Reserach_Guide_emp11bs0_wpftmp.GeneratedMSBuildEditorConfig.editorconfig
+++WODIA_Reserach_Guide.sln
+++FolderProfile.pubxml.user
+++Imports
+++Sdk.props
+++Sdk.targets
+++Microsoft.Common.props
+++Microsoft.NET.Sdk.props
+++Microsoft.NET.Sdk.BeforeCommon.targets
+++Microsoft.CSharp.targets
+++Microsoft.NET.Sdk.targets
+++Microsoft.NET.Compatibility.targets
+++NuGet.Build.Tasks.Pack.targets
+++Microsoft.NuGet.ImportBefore.props
+++NuGet.props
+++Microsoft.NET.Sdk.DefaultItems.props
+++Microsoft.NET.Sdk.ImportWorkloads.props
+++Microsoft.NET.SupportedTargetFrameworks.props
+++Microsoft.NET.SupportedPlatforms.props
+++Microsoft.NET.WindowsSdkSupportedTargetPlatforms.props
+++Microsoft.NET.Sdk.CSharp.props
+++Microsoft.NET.ILLink.props
+++Microsoft.NET.Compatibility.props
+++Microsoft.NET.PackTool.props
+++Microsoft.NET.PackProjectTool.props
+++Microsoft.NET.Sdk.WindowsDesktop.props
+++Microsoft.NET.Windows.props
+++Microsoft.NET.DefaultAssemblyInfo.targets
+++Microsoft.NET.DefaultOutputPaths.targets
+++Microsoft.NET.Sdk.ImportPublishProfile.targets
+++Microsoft.NET.TargetFrameworkInference.targets
+++Microsoft.NET.Sdk.ImportWorkloads.targets
+++Microsoft.NET.RuntimeIdentifierInference.targets
+++Microsoft.NET.EolTargetFrameworks.targets
+++Microsoft.NET.NuGetOfflineCache.targets
+++Microsoft.Managed.Before.targets
+++Microsoft.CSharp.CurrentVersion.targets
+++Microsoft.Managed.After.targets
+++Microsoft.NET.Sdk.Common.targets
+++Microsoft.PackageDependencyResolution.targets
+++Microsoft.NET.Sdk.DefaultItems.targets
+++Microsoft.NET.Sdk.FrameworkReferenceResolution.targets
+++Microsoft.NET.Sdk.Shared.targets
+++Microsoft.NET.DisableStandardFrameworkResolution.targets
+++Microsoft.NET.DesignerSupport.targets
+++Microsoft.NET.GenerateAssemblyInfo.targets
+++Microsoft.NET.GenerateGlobalUsings.targets
+++Microsoft.NET.GenerateSupportedRuntime.targets
+++Microsoft.NET.ComposeStore.targets
+++Microsoft.NET.CrossGen.targets
+++Microsoft.NET.ObsoleteReferences.targets
+++Microsoft.NET.Publish.targets
+++Microsoft.NET.PackTool.targets
+++Microsoft.NET.PackProjectTool.targets
+++Microsoft.NET.PreserveCompilationContext.targets
+++Microsoft.NET.ConflictResolution.targets
+++Microsoft.NET.Sdk.CSharp.targets
+++Microsoft.NET.ILLink.targets
+++Microsoft.NET.Sdk.Analyzers.targets
+++Microsoft.NET.Windows.targets
+++Microsoft.NET.Sdk.WindowsDesktop.targets
+++Microsoft.NET.Compatibility.Common.targets
+++Microsoft.NuGet.props
+++Microsoft.NETCoreSdk.BundledVersions.props
+++Microsoft.NET.Sdk.WindowsDesktop.WindowsForms.props
+++Microsoft.NET.Sdk.WindowsDesktop.WPF.props
+++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.200\microsoft.net.sdk.android)
+++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.200\microsoft.net.sdk.ios)
+++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.200\microsoft.net.sdk.maccatalyst)
+++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.200\microsoft.net.sdk.macos)
+++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.200\microsoft.net.sdk.maui)
+++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.200\microsoft.net.sdk.tvos)
+++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.200\microsoft.net.workload.emscripten)
+++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.200\microsoft.net.workload.mono.toolchain)
+++Microsoft.CSharp.Core.targets
+++Microsoft.CSharp.DesignTime.targets
+++Microsoft.Common.targets
+++Microsoft.ServiceModel.targets
+++Microsoft.NET.Sdk.DefaultItems.Shared.targets
+++Microsoft.NETCoreSdk.BundledCliTools.props
+++Microsoft.NET.DefaultPackageConflictOverrides.targets
+++Microsoft.CodeAnalysis.NetAnalyzers.props
+++Microsoft.CodeAnalysis.NetAnalyzers.targets
+++Microsoft.WinFX.targets
+++Microsoft.NET.ILLink.Tasks.props
+++System.Windows.Forms.Analyzers.props
+++Microsoft.Managed.Core.targets
+++Microsoft.Managed.DesignTime.targets
+++Microsoft.Common.CurrentVersion.targets
+++Microsoft.Managed.Core.CurrentVersions.targets
+++Microsoft.Cpp.VCLibs120Universal.targets
+++Microsoft.Net.CoreRuntime.ImportBefore.targets
+++Microsoft.NetNative.ImportBefore.targets
+++WODIA_Reserach_Guide.csproj.user
+++Microsoft.NET.props
+++Microsoft.CodeAnalysis.targets
+++Microsoft.Xaml.targets
+++Microsoft.WorkflowBuildExtensions.targets
+++Microsoft.TeamTest.targets
+++NuGet.targets
+++Microsoft.DesktopBridge.ImportAfter.targets
+++Microsoft.Docker.ImportAfter.targets
+++Microsoft.NET.Build.Extensions.targets
+++Microsoft.Net.CoreRuntime.ImportAfter.targets
+++Microsoft.NetNative.ImportAfter.targets
+++Microsoft.NuGet.ImportAfter.targets
+++Microsoft.Web.ImportAfter.targets
+++Xamarin.Common.targets
+++Microsoft.DesktopBridge.Common.targets
+++Microsoft.Docker.targets
