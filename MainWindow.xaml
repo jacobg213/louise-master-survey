@@ -13,7 +13,7 @@
             <RowDefinition Height="11*"/>
             <RowDefinition Height="381*"/>
         </Grid.RowDefinitions>
-        <Button x:Name="NewParticipant" Content="Ny deltager" Background="Green" Foreground="White" HorizontalAlignment="Left" Margin="36,1,0,0" VerticalAlignment="Top" Height="42" Width="244" Click="NewParticipant_Click" Grid.Row="1"/>
+        <Button x:Name="NewParticipant" Content="Ny deltagerr" Background="Green" Foreground="White" HorizontalAlignment="Left" Margin="36,1,0,0" VerticalAlignment="Top" Height="42" Width="244" Click="NewParticipant_Click" Grid.Row="1"/>
         <TextBox x:Name="ResearchID" HorizontalAlignment="Left" GotFocus="Age_GotFocus" Margin="36,52,0,0" Text="Forskningsnummer" TextWrapping="NoWrap" VerticalAlignment="Top" Width="244" Grid.Row="1" Height="37"/>
         <TextBox x:Name="ArrivedAtWaitingRoom" Text="Ankomst tid" GotFocus="Age_GotFocus" HorizontalAlignment="Left" Margin="355,52,0,673" Width="219" Grid.Row="1"/>
         <Button x:Name="TimeToUltrasound" Content="Hentet til ultralyd" Background="Black" Foreground="White" HorizontalAlignment="Left" Margin="355,1,0,0" VerticalAlignment="Top" Height="42" Width="219" Click="TimeToUltrasound_Click" Grid.Row="1"/>
