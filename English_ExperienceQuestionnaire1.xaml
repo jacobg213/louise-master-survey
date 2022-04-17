@@ -8,7 +8,7 @@
         WindowState="Maximized"
         FontSize="15"
         Title="Questionnaire page 2" Height="500" Width="1000">
-    <Grid Margin="0,0,0,-16">
+    <Grid Margin="0,0,0,0">
         <StackPanel Margin="20,10,20,0">
             <TextBlock Height="58" Width="960" HorizontalAlignment="Left" TextWrapping="WrapWithOverflow">
                 <Run Text = "Please answer these questions by stating the extent to which you agree or disagree with the statement (make one choice per question):"/>

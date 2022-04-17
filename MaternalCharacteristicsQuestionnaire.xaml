@@ -15,16 +15,16 @@
             </TextBlock>
             <StackPanel Orientation="Horizontal" Height="50">
                 <Label Content="Alder:" HorizontalAlignment="Left" VerticalAlignment="Center" HorizontalContentAlignment="Left"/>
-                <TextBox x:Name="Age" Text="Indtast alder (år)" InputScope="Number" Height="20" GotFocus="Age_GotFocus" TextWrapping="NoWrap" FontSize="13"/>
+                <TextBox x:Name="Age" Text="Indtast alder (år)" InputScope="Number" Height="20" GotFocus="Age_GotFocus" TextWrapping="NoWrap" FontSize="13" Width="115"/>
                 
                 <Label Content="Højde:" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-                <TextBox x:Name="PersonHeight" Text="Indtast Højde (cm)" InputScope="Number" Height="20" GotFocus="Age_GotFocus" TextWrapping="NoWrap" FontSize="13"/>
+                <TextBox x:Name="PersonHeight" Text="Indtast Højde (cm)" InputScope="Number" Height="20" GotFocus="Age_GotFocus" TextWrapping="NoWrap" FontSize="13" Width="115"/>
 
                 <Label Content="Vægt:" HorizontalAlignment="Right" VerticalAlignment="Center"/>
-                <TextBox x:Name="Weight" Text="Indtast vægt (kg)" InputScope="Number" Height="20" GotFocus="Age_GotFocus" TextWrapping="NoWrap" FontSize="13"/>
+                <TextBox x:Name="Weight" Text="Indtast vægt (kg)" InputScope="Number" Height="20" GotFocus="Age_GotFocus" TextWrapping="NoWrap" FontSize="13" Width="115"/>
 
                 <Label Content="Gestationsalder:" HorizontalAlignment="Left" VerticalAlignment="Center"/>
-                <TextBox x:Name="GA" Text="Indtast graviditetsuge (hele uger)" InputScope="Number" Height="20" GotFocus="Age_GotFocus" TextWrapping="NoWrap" FontSize="12" />
+                <TextBox x:Name="GA" Text="Indtast graviditetsuge (hele uger)" InputScope="Number" Height="20" GotFocus="Age_GotFocus" TextWrapping="NoWrap" FontSize="12" Width="115"/>
             </StackPanel>
    
             <StackPanel Orientation="Horizontal" Height="50">
@@ -40,7 +40,7 @@
 
             <StackPanel Orientation="Horizontal" Height="50">
                 <Label Content="Undfangelsesmetode:" HorizontalAlignment="Left" VerticalAlignment="Center" Width="350"/>
-                <ComboBox x:Name="PregnancyConception"  Height="20" Width="400" >
+                <ComboBox x:Name="PregnancyConception"  Height="25" Width="400" >
                     <ComboBoxItem Content="Spontan"/>
                     <ComboBoxItem Content="Fertilitetsbehandling"/>
                 </ComboBox>
@@ -48,7 +48,7 @@
 
             <StackPanel Orientation="Horizontal" Height="50">
                 <Label Content="Ryger:" HorizontalAlignment="Left" VerticalAlignment="Center" Width="350"/>
-                <ComboBox x:Name="Smoker"  Height="20" Width="400" >
+                <ComboBox x:Name="Smoker"  Height="25" Width="400" >
                     <ComboBoxItem Content="Ja"/>
                     <ComboBoxItem Content="Nej"/>
                 </ComboBox>
@@ -56,7 +56,7 @@
 
             <StackPanel Orientation="Horizontal" Height="50">
                 <Label Content="Kronisk forhøjet blodtryk:" HorizontalAlignment="Left" VerticalAlignment="Center" Width="350"/>
-                <ComboBox x:Name="ChronicBP"  Height="20" Width="400" >
+                <ComboBox x:Name="ChronicBP"  Height="25" Width="400" >
                     <ComboBoxItem Content="Ja"/>
                     <ComboBoxItem Content="Nej"/>
                 </ComboBox>
@@ -64,7 +64,7 @@
 
             <StackPanel Orientation="Horizontal" Height="50">
                 <Label Content="Systemisk lupus erythematosus (SLE):" HorizontalAlignment="Left" VerticalAlignment="Center" Width="350"/>
-                <ComboBox x:Name="SLE"  Height="20" Width="400" >
+                <ComboBox x:Name="SLE"  Height="25" Width="400" >
                     <ComboBoxItem Content="Ja"/>
                     <ComboBoxItem Content="Nej"/>
                 </ComboBox>
@@ -72,7 +72,7 @@
 
             <StackPanel Orientation="Horizontal" Height="50">
                 <Label Content="Antifosfolipid syndrom:" HorizontalAlignment="Left" VerticalAlignment="Center" Width="350"/>
-                <ComboBox x:Name="AntifosSyndrome"  Height="20" Width="400" >
+                <ComboBox x:Name="AntifosSyndrome"  Height="25" Width="400" >
                     <ComboBoxItem Content="Ja"/>
                     <ComboBoxItem Content="Nej"/>
                 </ComboBox>
@@ -80,7 +80,7 @@
 
             <StackPanel Orientation="Horizontal" Height="50">
                 <Label Content="Diabetes:" HorizontalAlignment="Left" VerticalAlignment="Center" Width="350"/>
-                <ComboBox x:Name="DM"  Height="20" Width="400" >
+                <ComboBox x:Name="DM"  Height="25" Width="400" >
                     <ComboBoxItem Content="Ja, type 1"/>
                     <ComboBoxItem Content="Ja, type 2"/>
                     <ComboBoxItem Content="Nej"/>
@@ -89,7 +89,7 @@
 
             <StackPanel Orientation="Horizontal" Height="50">
                 <Label Content="Tidligere fødsler:" HorizontalAlignment="Left" VerticalAlignment="Center" Width="350"/>
-                <ComboBox x:Name="FormerBirth"  Height="20" Width="400" >
+                <ComboBox x:Name="FormerBirth"  Height="25" Width="400" >
                     <ComboBoxItem Content="Ingen tidligere fødsler"/>
                     <ComboBoxItem Content="Har født tidligere MED svangerskabsforgiftning"/>
                     <ComboBoxItem Content="Har født tidligere UDEN svangerskabsforgiftning"/>
@@ -98,7 +98,7 @@
 
             <StackPanel Orientation="Horizontal" Height="50">
                 <Label Content="Min mor har haft svangerskabsforgiftning:" HorizontalAlignment="Left" VerticalAlignment="Center" Width="350"/>
-                <ComboBox x:Name="GenericDisposed"  Height="20" Width="400" >
+                <ComboBox x:Name="GenericDisposed"  Height="25" Width="400" >
                     <ComboBoxItem Content="Ja"/>
                     <ComboBoxItem Content="Nej"/>
                 </ComboBox>
@@ -106,12 +106,12 @@
 
             <StackPanel Orientation="Horizontal" Height="50">
                 <Label Content="Interval mellem graviditeter:" HorizontalAlignment="Left" VerticalAlignment="Center" Width="350"/>
-                <TextBox x:Name="Interval" Text="Indtast 0 hvis første barn (år)" InputScope="Number" Height="20" GotFocus="Age_GotFocus" FontSize="12" Width="400"/>
+                <TextBox x:Name="Interval" Text="Indtast 0 hvis første barn (år)" InputScope="Number" Height="25" GotFocus="Age_GotFocus" FontSize="12" Width="400"/>
             </StackPanel>
             
             <StackPanel Orientation="Horizontal" Height="50">
                 <Label Content="Graviditetsuge ved tidligere fødsel:" HorizontalAlignment="Left" VerticalAlignment="Center" Width="350"/>
-                <TextBox x:Name="PastChildAge" Text="Indtast 0 hvis første fødsel (hele uger)" InputScope="Number" Height="20" GotFocus="Age_GotFocus" FontSize="12" Width="400"/>
+                <TextBox x:Name="PastChildAge" Text="Indtast 0 hvis første fødsel (hele uger)" InputScope="Number" Height="25" GotFocus="Age_GotFocus" FontSize="12" Width="400"/>
             </StackPanel>
         </StackPanel>
 

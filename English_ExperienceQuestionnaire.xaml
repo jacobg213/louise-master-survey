@@ -8,33 +8,50 @@
         WindowState="Maximized"
         FontSize="15"
         Title="Questionnaire page 1" Height="500" Width="1000">
-    <Grid Margin="0,0,0,-16">
-
-        <TextBlock TextWrapping="WrapWithOverflow" Margin="21,10,21,432">
+    <Grid Margin="0,0,0,0">
+        <StackPanel Margin="20,10,20,0">
+            <TextBlock TextWrapping="WrapWithOverflow" Margin="21,10,21,5">
                 This questionnaire contain questions regarding your experience of the methods used within the study. The questionnare is on the following 3 pages.
                 Please answer the first questions regarding your current situation with appropriate words.
-        </TextBlock>
-
-        <Label Content="1. How long did you use to get to the Department from home?:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="21,73,0,0"/>
-        <TextBox Name="Page1_1" Margin="606,63,21,388"/>
-
-        <Label Content="2. How did you get to the Hospital?:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="21,139,0,0"/>
-        <TextBox Name="Page1_2" Margin="606,129,21,322"/>
-
-        <Label Content="3. Are you currently working?:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="21,210,0,0"/>
-        <ComboBox x:Name="Page1_3" Height="25" Margin="606,212,21,263" >
-            <ComboBoxItem Content="Yes"/>
-            <ComboBoxItem Content="No"/>
-        </ComboBox>
-
-        <Label Content="4. If yes to previous question, did you have to take time off work to get here today?:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="21,283,0,0"/>
-        <TextBox Name="Page1_4" Margin="606,273,21,178"/>
-
-        <Label Content="5. Are your partner with you today? If so, did your partner need to take time off work?:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="21,356,0,0"/>
-        <TextBox Name="Page1_5" Margin="606,346,21,105"/>
-
-        <Button x:Name="NextPage" Background="LightSlateGray" Content="Next page" Click="NextPage_Click" Margin="21,422,21,38" Height="40"/>
-
+            </TextBlock>
+            <StackPanel Orientation="Horizontal" Height="70">
+                <Label Content="1. How long did you use to get to the Department from home?:" HorizontalAlignment="Left" VerticalAlignment="Top" Height="70" Width="550"/>
+                <TextBox Name="Page1_1" Height="40" Width="400"/>
+            </StackPanel>
+            
+            <StackPanel Orientation="Horizontal" Height="70">
+                <Label Content="2. How did you get to the Hospital?:" HorizontalAlignment="Left" VerticalAlignment="Top" Height="70" Width="550"/>
+                <TextBox Name="Page1_2" Height="40" Width="400"/>
+            </StackPanel>
+            
+            <StackPanel Orientation="Horizontal" Height="70">
+                <Label Content="3. Are you currently working?:" HorizontalAlignment="Left" VerticalAlignment="Top" Height="70" Width="550"/>
+                <ComboBox x:Name="Page1_3" Height="30" Width="400">
+                      <ComboBoxItem Content="Yes"/>
+                      <ComboBoxItem Content="No"/>
+                 </ComboBox>
+            </StackPanel>
+            
+            <StackPanel Orientation="Horizontal" Height="70">
+                <TextBlock Height="70" Width="550" HorizontalAlignment="Left" TextWrapping="WrapWithOverflow">
+                    <Run Text = "4.    If yes to previous question, did you have to take"/>
+                    <LineBreak/>
+                    <Run Text = "       time off work to get here today?:"/>
+                </TextBlock>
+                <TextBox Name="Page1_4" Height="40" Width="400"/>
+            </StackPanel>
+               
+            <StackPanel Orientation="Horizontal" Height="70">
+                <TextBlock Height="70" Width="550" HorizontalAlignment="Left" TextWrapping="WrapWithOverflow">
+                    <Run Text = "5.    Are your partner with you today? If so, did your partner need"/>
+                    <LineBreak/>
+                    <Run Text = "       to take time off work?:"/>
+                </TextBlock>
+                <TextBox Name="Page1_5" Height="40" Width="400"/>
+            </StackPanel>
+            
+        <Button x:Name="NextPage" Background="LightSlateGray" Content="Next page" Click="NextPage_Click" Margin="21,0,21,38" Height="40"/>
+        </StackPanel>
 
 
     </Grid>
