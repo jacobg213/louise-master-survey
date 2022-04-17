@@ -29,10 +29,8 @@ namespace WODIA_Reserach_Guide
         {
             var participant = ((MainWindow)Application.Current.MainWindow).CurrentParticipant;
             participant.Choose1 = Choose1.Text;
-            participant.Choose1Elaborate = Choose1Elaborate.Text;
 
             participant.Choose2 = Choose2.Text;
-            participant.Choose2Elaborate = Choose2Elaborate.Text;
 
             participant.Choose3 = Choose3.Text;
             participant.Choose3Elaborate = Choose3Elaborate.Text;
@@ -42,9 +40,6 @@ namespace WODIA_Reserach_Guide
 
             participant.Choose5 = Choose5.Text;
             participant.Choose5Elaborate = Choose5Elaborate.Text;
-
-            participant.Choose6 = Choose6.Text;
-            participant.Choose6Elaborate = Choose6Elaborate.Text;
 
             SaveQuestions();
             Close();
@@ -57,7 +52,7 @@ namespace WODIA_Reserach_Guide
                 return;
 
             //Here  we construct the new row (e.g. all data must arrive here)
-            var newAnswer = String.Format("{0};{1};{2};{3};{4};{5};{6};{7};{8};{9};{10};{11};{12};{13};{14};{15};{16};{17};{18};{19};{20};{21}", participant.Page1_1, participant.Page1_2, participant.Page1_3, participant.Page1_4, participant.Page1_5, participant.agree1, participant.agree2, participant.agree3, participant.agree4, participant.agree5, participant.Choose1, participant.Choose1Elaborate, participant.Choose2, participant.Choose2Elaborate, participant.Choose3, participant.Choose3Elaborate, participant.Choose4, participant.Choose4Elaborate, participant.Choose5, participant.Choose5Elaborate, participant.Choose6, participant.Choose6Elaborate);
+            var newAnswer = String.Format("{0};{1};{2};{3};{4};{5};{6};{7};{8};{9};{10};{11};{12};{13};{14};{15};{16};{17}", participant.ResearchNumber, participant.Page1_1, participant.Page1_2, participant.Page1_3, participant.Page1_4, participant.Page1_5, participant.agree1, participant.agree2, participant.agree3, participant.agree4, participant.Choose1, participant.Choose2, participant.Choose3, participant.Choose3Elaborate, participant.Choose4, participant.Choose4Elaborate, participant.Choose5, participant.Choose5Elaborate);
             
             //First - we read ALL lines - in order to check for a previous version
             string[] lines = null;

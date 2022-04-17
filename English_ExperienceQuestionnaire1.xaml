@@ -37,7 +37,7 @@
                     <Run Text = "       examinations in connection with the 1st trimester scan:"/>
                 </TextBlock>
 
-                <ComboBox x:Name="agree3"  Height="25" Width="400" >
+                <ComboBox x:Name="agree2"  Height="25" Width="400" >
                     <ComboBoxItem Content="Strongly agree"/>
                     <ComboBoxItem Content="Partly agree"/>
                     <ComboBoxItem Content="Neither nor"/>
@@ -54,7 +54,7 @@
                     <Run Text = "       more examinations done in connection with the 1st trimester scan:"/>
                 </TextBlock>
                 
-                <ComboBox x:Name="agree4"  Height="25" Width="400" >
+                <ComboBox x:Name="agree3"  Height="25" Width="400" >
                     <ComboBoxItem Content="Strongly agree"/>
                     <ComboBoxItem Content="Partly agree"/>
                     <ComboBoxItem Content="Neither nor"/>
@@ -71,7 +71,7 @@
                      <Run Text = "       reduce the risk of preeclampsia:"/>
                 </TextBlock>
 
-                <ComboBox x:Name="agree5"  Height="25" Width="400" >
+                <ComboBox x:Name="agree4"  Height="25" Width="400" >
                     <ComboBoxItem Content="Strongly agree"/>
                     <ComboBoxItem Content="Partly agree"/>
                     <ComboBoxItem Content="Neither nor"/>

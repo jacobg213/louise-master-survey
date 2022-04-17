@@ -21,7 +21,7 @@
                     <Run Text = "       (Select the preferred option):"/>
                 </TextBlock>
                
-                <ComboBox x:Name="Choose5"  Height="25" Width="400" >
+                <ComboBox x:Name="Choose1"  Height="25" Width="400" >
                     <ComboBoxItem Content="Has no mobile / smartwatch / tablet / computer or similar"/>
                     <ComboBoxItem Content="Mobile phone that can not get on the internett"/>
                     <ComboBoxItem Content="Smartphone"/>
@@ -113,7 +113,7 @@
                     <Run Text = "        a week for 4 weeks?:   "/>
                 </TextBlock>
                 
-                <ComboBox x:Name="Choose1"  Height="25" Width="400" >
+                <ComboBox x:Name="Choose5"  Height="25" Width="400" >
                     <ComboBoxItem Content="Selv måle blodtryk hjemme med udleveret blodtryksapparat"/>
                     <ComboBoxItem Content="Møde i afdelingen til blodtryksmåling ved sundhedspersonale"/>
                     <ComboBoxItem Content="Mæde i afdelingen og selvstændigt klare blodtryksmålingen ved en selvmålestation"/>
@@ -127,7 +127,7 @@
                     <LineBreak/>
                     <Run Text = "        "/>
                 </TextBlock>
-                <TextBox Name="Choose1Elaborate" Width="400">
+                <TextBox Name="Choose5Elaborate" Width="400">
 
                 </TextBox>
             </StackPanel>

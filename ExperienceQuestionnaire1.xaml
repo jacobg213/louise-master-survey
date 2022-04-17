@@ -37,7 +37,7 @@
                     <Run Text = "       undersøgelser i forbindelse med 1. trimester skanningen:"/>
                 </TextBlock>
 
-                <ComboBox x:Name="agree3"  Height="25" Width="400" >
+                <ComboBox x:Name="agree2"  Height="25" Width="400" >
                     <ComboBoxItem Content="Meget enig"/>
                     <ComboBoxItem Content="Delvist enig"/>
                     <ComboBoxItem Content="Hverken eller"/>
@@ -54,7 +54,7 @@
                     <Run Text = "       flere undersøgelser i forbindelse med 1. trimester skanningen:"/>
                 </TextBlock>
                 
-                <ComboBox x:Name="agree4"  Height="25" Width="400" >
+                <ComboBox x:Name="agree3"  Height="25" Width="400" >
                     <ComboBoxItem Content="Meget enig"/>
                     <ComboBoxItem Content="Delvist enig"/>
                     <ComboBoxItem Content="Hverken eller"/>
@@ -71,7 +71,7 @@
                      <Run Text = "       til at mindske risikoen for svangerskabsforgiftning:"/>
                 </TextBlock>
 
-                <ComboBox x:Name="agree5"  Height="25" Width="400" >
+                <ComboBox x:Name="agree4"  Height="25" Width="400" >
                     <ComboBoxItem Content="Meget enig"/>
                     <ComboBoxItem Content="Delvist enig"/>
                     <ComboBoxItem Content="Hverken eller"/>

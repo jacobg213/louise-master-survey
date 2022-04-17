@@ -32,7 +32,6 @@ namespace WODIA_Reserach_Guide
             participant.agree2 = agree2.Text;
             participant.agree3 = agree3.Text;
             participant.agree4 = agree4.Text;
-            participant.agree5 = agree5.Text;
 
             ((MainWindow)Application.Current.MainWindow).SaveData();
             Close();
