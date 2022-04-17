@@ -1,0 +1,120 @@
+﻿<Window x:Class="WODIA_Reserach_Guide.MaternalCharacteristicsQuestionnaire"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WODIA_Reserach_Guide"
+        mc:Ignorable="d"
+        WindowState="Maximized"
+        FontSize="15"
+        Title="MaternalCharacteristicsQuestionnaire" Height="750" Width="800">
+    <Grid Margin="0,0,0,4">
+        <StackPanel Margin="10,10,10,75">
+            <TextBlock Height="58" Width="759" HorizontalAlignment="Left" TextWrapping="WrapWithOverflow">
+                Dette er et spørgeskema bestående af nogle spørgsmål angående dit helbred og eventuelle tidligere fødsler. Disse spørgsmål har vist sig at kunne være med til at identificere, om du kan være i en øget risiko for at udvikle svangerskabsforgiftning. Det er derfor vigtigt, du svarer på dem alle.
+            </TextBlock>
+            <StackPanel Orientation="Horizontal" Height="50">
+                <Label Content="Alder:" HorizontalAlignment="Left" VerticalAlignment="Center" HorizontalContentAlignment="Left"/>
+                <TextBox x:Name="Age" Text="Indtast alder (år)" InputScope="Number" Height="20" GotFocus="Age_GotFocus" TextWrapping="NoWrap" FontSize="13"/>
+                
+                <Label Content="Højde:" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                <TextBox x:Name="Height" Text="Indtast Højde (cm)" InputScope="Number" Height="20" GotFocus="Age_GotFocus" TextWrapping="NoWrap" FontSize="13"/>
+
+                <Label Content="Vægt:" HorizontalAlignment="Right" VerticalAlignment="Center"/>
+                <TextBox x:Name="Weight" Text="Indtast vægt (kg)" InputScope="Number" Height="20" GotFocus="Age_GotFocus" TextWrapping="NoWrap" FontSize="13"/>
+
+                <Label Content="Gestationsalder:" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+                <TextBox x:Name="GA" Text="Indtast graviditetsuge (hele uger)" InputScope="Number" Height="20" GotFocus="Age_GotFocus" TextWrapping="NoWrap" FontSize="12" />
+            </StackPanel>
+   
+            <StackPanel Orientation="Horizontal" Height="50">
+                <Label Content="Geografisk oprindelse:" HorizontalAlignment="Left" VerticalAlignment="Center" Width="350"/>
+                <ComboBox x:Name="Race"  Height="25" Width="400" >
+                    <ComboBoxItem Content="Kaukatisk"/>
+                    <ComboBoxItem Content="Sydasiatisk"/>
+                    <ComboBoxItem Content="Østasiatisk"/>
+                    <ComboBoxItem Content="Afrikansk"/>
+                    <ComboBoxItem Content="Andet"/>
+                </ComboBox>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal" Height="50">
+                <Label Content="Undfangelsesmetode:" HorizontalAlignment="Left" VerticalAlignment="Center" Width="350"/>
+                <ComboBox x:Name="PregnancyConception"  Height="20" Width="400" >
+                    <ComboBoxItem Content="Spontan"/>
+                    <ComboBoxItem Content="Fertilitetsbehandling"/>
+                </ComboBox>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal" Height="50">
+                <Label Content="Ryger:" HorizontalAlignment="Left" VerticalAlignment="Center" Width="350"/>
+                <ComboBox x:Name="Smoker"  Height="20" Width="400" >
+                    <ComboBoxItem Content="Ja"/>
+                    <ComboBoxItem Content="Nej"/>
+                </ComboBox>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal" Height="50">
+                <Label Content="Kronisk forhøjet blodtryk:" HorizontalAlignment="Left" VerticalAlignment="Center" Width="350"/>
+                <ComboBox x:Name="ChronicBP"  Height="20" Width="400" >
+                    <ComboBoxItem Content="Ja"/>
+                    <ComboBoxItem Content="Nej"/>
+                </ComboBox>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal" Height="50">
+                <Label Content="Systemisk lupus erythematosus (SLE):" HorizontalAlignment="Left" VerticalAlignment="Center" Width="350"/>
+                <ComboBox x:Name="SLE"  Height="20" Width="400" >
+                    <ComboBoxItem Content="Ja"/>
+                    <ComboBoxItem Content="Nej"/>
+                </ComboBox>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal" Height="50">
+                <Label Content="Antifosfolipid syndrom:" HorizontalAlignment="Left" VerticalAlignment="Center" Width="350"/>
+                <ComboBox x:Name="AntifosSyndrome"  Height="20" Width="400" >
+                    <ComboBoxItem Content="Ja"/>
+                    <ComboBoxItem Content="Nej"/>
+                </ComboBox>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal" Height="50">
+                <Label Content="Diabetes:" HorizontalAlignment="Left" VerticalAlignment="Center" Width="350"/>
+                <ComboBox x:Name="DM"  Height="20" Width="400" >
+                    <ComboBoxItem Content="Ja, type 1"/>
+                    <ComboBoxItem Content="Ja, type 2"/>
+                    <ComboBoxItem Content="Nej"/>
+                </ComboBox>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal" Height="50">
+                <Label Content="Tidligere fødsler:" HorizontalAlignment="Left" VerticalAlignment="Center" Width="350"/>
+                <ComboBox x:Name="FormerBirth"  Height="20" Width="400" >
+                    <ComboBoxItem Content="Ingen tidligere fødsler"/>
+                    <ComboBoxItem Content="Har født tidligere MED svangerskabsforgiftning"/>
+                    <ComboBoxItem Content="Har født tidligere UDEN svangerskabsforgiftning"/>
+                </ComboBox>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal" Height="50">
+                <Label Content="Min mor har haft svangerskabsforgiftning:" HorizontalAlignment="Left" VerticalAlignment="Center" Width="350"/>
+                <ComboBox x:Name="GenericDisposed"  Height="20" Width="400" >
+                    <ComboBoxItem Content="Ja"/>
+                    <ComboBoxItem Content="Nej"/>
+                </ComboBox>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal" Height="50">
+                <Label Content="Interval mellem graviditeter:" HorizontalAlignment="Left" VerticalAlignment="Center" Width="350"/>
+                <TextBox x:Name="Interval" Text="Indtast 0 hvis første barn (år)" InputScope="Number" Height="20" GotFocus="Age_GotFocus" FontSize="12" Width="400"/>
+            </StackPanel>
+            
+            <StackPanel Orientation="Horizontal" Height="50">
+                <Label Content="Graviditetsuge ved tidligere fødsel:" HorizontalAlignment="Left" VerticalAlignment="Center" Width="350"/>
+                <TextBox x:Name="PastChildAge" Text="Indtast 0 hvis første fødsel (hele uger)" InputScope="Number" Height="20" GotFocus="Age_GotFocus" FontSize="12" Width="400"/>
+            </StackPanel>
+        </StackPanel>
+
+        <Button x:Name="EndQuestionnaire" Content="GEM OG AFSLUT" Background="Black" Foreground="White" Height="33" Click="EndQuistionnaire" Margin="538,668,37,29"/>
+    </Grid>
+</Window>

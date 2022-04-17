@@ -1,0 +1,64 @@
+﻿<Window x:Class="WODIA_Reserach_Guide.MainWindow"
+        FontSize="26"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WODIA_Reserach_Guide"
+        mc:Ignorable="d"
+        WindowState="Maximized"
+        Title="WODIA Research Guide" Height="800" Width="1200">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="11*"/>
+            <RowDefinition Height="381*"/>
+        </Grid.RowDefinitions>
+        <Button x:Name="NewParticipant" Content="Ny deltager" Background="Green" Foreground="White" HorizontalAlignment="Left" Margin="36,1,0,0" VerticalAlignment="Top" Height="42" Width="244" Click="NewParticipant_Click" Grid.Row="1"/>
+        <TextBox x:Name="ResearchID" HorizontalAlignment="Left" GotFocus="Age_GotFocus" Margin="36,52,0,0" Text="Forskningsnummer" TextWrapping="NoWrap" VerticalAlignment="Top" Width="244" Grid.Row="1" Height="37"/>
+        <TextBox x:Name="ArrivedAtWaitingRoom" Text="Ankomst tid" GotFocus="Age_GotFocus" HorizontalAlignment="Left" Margin="355,52,0,673" Width="219" Grid.Row="1" TextChanged="ArrivedAtWaitingRoom_TextChanged"/>
+        <Button x:Name="TimeToUltrasound" Content="Hentet til ultralyd" Background="Black" Foreground="White" HorizontalAlignment="Left" Margin="355,1,0,0" VerticalAlignment="Top" Height="42" Width="219" Click="TimeToUltrasound_Click" Grid.Row="1"/>
+        <Button x:Name="ArrivedToUltrasound" Content="Ankommet til ultralyd" Background="Black" Foreground="White" Margin="36,98,0,624" Click="ArrivedToUltrasound_Click" Grid.Row="1" HorizontalAlignment="Left" Width="538"/>
+        <Button x:Name="DoneWithUltrasound" Content="Færdig med ultralyd" Background="Black" Foreground="White" Margin="0,98,40,624" Click="DoneWithUltrasound_Click" Grid.Row="1" HorizontalAlignment="Right" Width="538"/>
+        <Button x:Name="WalkFromUltrasound" Content="Afgang fra ultralyd" Background="Black" Foreground="White" Margin="36,158,0,564" Click="WalkFromUltrasound_Click" Grid.Row="1" HorizontalAlignment="Left" Width="538"/>
+        <Button x:Name="ArrivedToBT" Content="Ankommet til BT" Background="Black" Foreground="White" Margin="0,158,40,564" Click="ArrivedToBT_Click" Grid.Row="1" HorizontalAlignment="Right" Width="538"/>
+        <Button x:Name="StartFirstCuffMount" Content="Start første manchet" Background="Black" Foreground="White" Margin="36,278,0,444" Click="FirstCuffStart_Click" Grid.Row="1" HorizontalAlignment="Left" Width="538"/>
+        <Button x:Name="EndFirstCuffMount" Content="Slut første manchet" Background="Black" Foreground="White" Margin="0,278,40,444" Click="FirstCuffEnd_Click" Grid.Row="1" HorizontalAlignment="Right" Width="538"/>
+        <Button x:Name="StartSecondCuffMount" Content="Start anden manchet" Background="Black" Foreground="White" Margin="36,338,0,384" Click="SecondCuffStart_Click" Grid.Row="1" HorizontalAlignment="Left" Width="538"/>
+        <Button x:Name="EndSecondCuffMount" Content="Slut andet manchet" Background="Black" Foreground="White" Margin="0,338,40,384" Click="SecondCuffEnd_Click" Grid.Row="1" HorizontalAlignment="Right" Width="538"/>
+        <Button x:Name="StartCuffRemoval" Content="Start manchet afmontering" Background="Black" Foreground="White" Margin="36,458,0,264" Click="CuffRemovalStart_Click" RenderTransformOrigin="0.5,0.5" Grid.Row="1" HorizontalAlignment="Left" Width="538">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0.041"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button x:Name="EndCuffRemoval" Content="Slut manchet afmontering" Background="Black" Foreground="White" Margin="0,458,40,264" Click="CuffRemovalEnd_Click" Grid.Row="1" HorizontalAlignment="Right" Width="538"/>
+        <Button x:Name="StartNurseCuffMount" Content="Start sygeplejerske manchet" Background="Black" Foreground="White" Margin="36,398,0,324" Click="StartNurse_Click" Grid.Row="1" HorizontalAlignment="Left" Width="538"/>
+        <Button x:Name="EndContent" Content="Slut sygeplejerske manchet" Background="Black" Foreground="White" Margin="0,398,40,324" Click="EndNurse_Click" Grid.Row="1" HorizontalAlignment="Right" Width="538"/>
+        <Button x:Name="RoomLeft" Content="Forladt BT lokalet" Background="Black" Foreground="White" Margin="0,589,40,114" Click="RoomLeft_Click" Grid.Row="1" HorizontalAlignment="Right" Width="205"/>
+        <Button x:Name="StartBTInstruction" Content="Start instruktion" Background="Black" Foreground="White" Margin="36,218,0,504" Click="StartIntroduction_Click" Grid.Row="1" HorizontalAlignment="Left" Width="538"/>
+        <Button x:Name="EndBTInstruction" Content="Slut instruktion" Background="Black" Foreground="White" Margin="0,218,40,504" Click="EndIntroduction_Click" Grid.Row="1" HorizontalAlignment="Right" Width="538"/>
+        <Button x:Name="StarQuestionnaire" Content="START SPØRGESKEMA" Background="BlueViolet" Foreground="White" Margin="36,528,0,184" Click="StartQuestionnaire_Click" Grid.Row="1" HorizontalAlignment="Left" Width="538"/>
+        <Button x:Name="SaveDataAndUnlock" Content="Gem og lås op" Background="Green" Foreground="White" Margin="36,667,40,45" Click="Save_Click" Grid.Row="1"/>
+        <Button x:Name="StartExperienceQuestionnaire" Content="UNDERSØGELSESSPØRGSMÅL" Background="BlueViolet" Foreground="White" Margin="36,598,0,114" Click="StartExperinceQuestionnaire_Click" Grid.Row="1" HorizontalAlignment="Left" Width="538"/>
+        <TextBox x:Name="ArmMeasure" GotFocus="Age_GotFocus" Margin="0,528,40,196" Text="Arm omkreds" TextWrapping="NoWrap" RenderTransformOrigin="1.242,0.459" HorizontalAlignment="Right" Width="160" Grid.Row="1"/>
+        <Label Margin="0,553,431,118" Name="Clock" FontSize="26" FontFamily="Arial" RenderTransformOrigin="0.5,0.5" Grid.Row="1" HorizontalAlignment="Right" Width="169" >
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+        <CheckBox x:Name="FirstCuffPlacing" Content="1. manchet korrekt" Margin="0,1,342,719" Grid.Row="1" HorizontalAlignment="Right" Width="236"/>
+        <CheckBox x:Name="SecondCuffPlacing" Content="2. manchet korrekt" Margin="0,52,342,673" Grid.Row="1" HorizontalAlignment="Right" Width="236"/>
+        <CheckBox x:Name="FirstArm" Content="1. arm = højre" Margin="0,528,232,196" Grid.Row="1" HorizontalAlignment="Right" Width="194"/>
+        <Button x:Name="Lang" Content="Engelsk" Background="Blue" Margin="1046,1,40,719" Grid.Row="1" Click="Lang_Click"></Button>
+        <Button x:Name="ReadyToLeave" Content="Færdig" Background="Black" Foreground="White" Margin="0,589,297,114" Click="RoomLeft_Click" Grid.Row="1" HorizontalAlignment="Right" Width="98"/>
+    </Grid>
+</Window>

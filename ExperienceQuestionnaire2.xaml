@@ -1,0 +1,137 @@
+﻿<Window x:Class="WODIA_Reserach_Guide.ExperienceQuestionnaire2"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WODIA_Reserach_Guide"
+        mc:Ignorable="d"
+        WindowState="Maximized"
+        FontSize="15"
+        Title="Spørgeskema Side 3" Height="800" Width="1000">
+    <Grid>
+        <StackPanel Margin="20,10,20,0">
+            <TextBlock Height="58" Width="1000" HorizontalAlignment="Left" TextWrapping="WrapWithOverflow">
+                Du bedes besvare spørgsmål 10 ved at angive, hvilken af de tilhørende valgmuligheder, du har med i din taske til hverdag:
+            </TextBlock>
+
+            <StackPanel Orientation="Horizontal" Height="70">
+                <TextBlock Height="50" Width="550" HorizontalAlignment="Left" TextWrapping="WrapWithOverflow" FontSize="18">
+                    <Run Text = "10.   Hvilken form for teknologi bruger du til hverdag?"/>
+                    <LineBreak/>
+                    <Run Text = "       (Vælg det foretrukne):"/>
+                </TextBlock>
+               
+                <ComboBox x:Name="Choose5"  Height="25" Width="400" >
+                    <ComboBoxItem Content="Har ingen mobil/smartwatch/tablet/computer eller lignende"/>
+                    <ComboBoxItem Content="Mobiltelefon som ikke kan komme på internet"/>
+                    <ComboBoxItem Content="Smartphone "/>
+                    <ComboBoxItem Content="Smartwatch"/>
+                    <ComboBoxItem Content="Tablet"/>
+                    <ComboBoxItem Content="Computer"/>
+                </ComboBox>
+            </StackPanel>
+            <TextBlock Height="60" Width="960" HorizontalAlignment="Left" TextWrapping="WrapWithOverflow">
+                Du bedes besvare spørgsmål 11 ved at angive, om du ved ankomst til afdelingen for din 1. trimester skanning, kunne have brugt yderligere information bl.a. angående, hvor venteværelset var placeret. Uddyb gerne dit valg i spørgsmål 13.:
+            </TextBlock>
+
+            <StackPanel Orientation="Horizontal" Height="60">
+                <TextBlock Height="50" Width="550" HorizontalAlignment="Left" TextWrapping="WrapWithOverflow" FontSize="18">
+                    <Run Text = "11.   Jeg havde brug for information om, hvor jeg præcis skulle gå"/>
+                    <LineBreak/>
+                    <Run Text = "       hen efter indtjekning:"/>
+                </TextBlock>
+                <ComboBox x:Name="Choose2"  Height="25" Width="400" >
+                    <ComboBoxItem Content="Ja"/>
+                    <ComboBoxItem Content="Nej"/>
+                </ComboBox>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal" Height="60">
+                <TextBlock Height="50" Width="550" HorizontalAlignment="Left" TextWrapping="WrapWithOverflow" FontSize="18">
+                    <Run Text = "12.   Hvis ja, hvilken metode vil du foretrække at modtage"/>
+                    <LineBreak/>
+                    <Run Text = "        information på, såsom hvor du skal gå hen? (Vælg foretrukne):"/>
+                </TextBlock>
+            
+                <ComboBox x:Name="Choose3"  Height="25" Width="400" >
+                    <ComboBoxItem Content="SMS ved ankomst med lokale"/>
+                    <ComboBoxItem Content="Download en App hjemmefra, som vil give besked og vise vej"/>
+                    <ComboBoxItem Content="Sundhedsprofessionel viser vej"/>
+                    <ComboBoxItem Content="Skærme der viser et nummer og hvor man skal hen"/>
+                </ComboBox>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal" Height="70">
+                <TextBlock Height="50" Width="550" HorizontalAlignment="Left" TextWrapping="WrapWithOverflow" FontSize="18">
+                    <Run Text = "13.   Beskriv grunden for dit valg i spørgsmål 12"/>
+                    <LineBreak/>
+                    <Run Text = "        "/>
+                </TextBlock>
+                <TextBox x:Name="Choose3Elaborate" Width="400" Height="60">
+
+                </TextBox>
+            </StackPanel>
+            
+            <TextBlock Height="58" Width="960" HorizontalAlignment="Left" TextWrapping="WrapWithOverflow">
+                Du bedes besvare de følgende spørgsmål ved at angive, hvilken af de tilhørende valgmuligheder, du ville foretrække (vælg én) samt beskrive grunden herfor.:
+            </TextBlock>
+
+
+            <StackPanel Orientation="Horizontal" Height="60">
+                <TextBlock Height="50" Width="550" HorizontalAlignment="Left" TextWrapping="WrapWithOverflow" FontSize="18">
+                    <Run Text = "14.   Hvilken metode vil du foretrække til at besvare spørgeskemaet"/>
+                    <LineBreak/>
+                    <Run Text = "        omkring dit helbred på?:"/>
+                </TextBlock>
+                
+                <ComboBox x:Name="Choose4"  Height="25" Width="400" >
+                    <ComboBoxItem Content="SMS med link til en hjemmeside, hvor skemaet kan udfyldes enten hjemme eller i venteværelset på dagen for skanningen"/>
+                    <ComboBoxItem Content="Besvare skemaet hjemmefra før dagen for skanningen"/>
+                    <ComboBoxItem Content="Besvare skemaet på en tablet stående i venteværelset"/>
+                    <ComboBoxItem Content="Besvare skemaet på en tablet i lokalet, hvor der foretages blodtryksmåling"/>
+                    <ComboBoxItem Content="Sundhedsprofessionel gennemgår skemaet sammen med mig"/>
+                </ComboBox>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal" Height="60">
+                <TextBlock Height="50" Width="550" HorizontalAlignment="Left" TextWrapping="WrapWithOverflow" FontSize="18">
+                    <Run Text = "15.   Beskriv grunden for dit valg i spørgsmål 14"/>
+                    <LineBreak/>
+                    <Run Text = "        "/>
+                </TextBlock>
+                <TextBox x:Name="Choose4Elaborate" Width="400">
+
+                </TextBox>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal" Height="60">
+                <TextBlock Height="50" Width="550" HorizontalAlignment="Left" TextWrapping="WrapWithOverflow" FontSize="18">
+                    <Run Text = "16.   Hvilken blodtryksmålings metode vil du foretrække i tilfælde af,"/>
+                    <LineBreak/>
+                    <Run Text = "        du skal måle dit blodtryk 1-2 gange ugentligt i 4 uger?:   "/>
+                </TextBlock>
+                
+                <ComboBox x:Name="Choose1"  Height="25" Width="400" >
+                    <ComboBoxItem Content="Selv måle blodtryk hjemme med udleveret blodtryksapparat"/>
+                    <ComboBoxItem Content="Møde i afdelingen til blodtryksmåling ved sundhedspersonale"/>
+                    <ComboBoxItem Content="Mæde i afdelingen og selvstændigt klare blodtryksmålingen ved en selvmålestation"/>
+                    <ComboBoxItem Content="Gå til egen læge til måling af blodtryk"/>
+                </ComboBox>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal" Height="60">
+                <TextBlock Height="50" Width="550" HorizontalAlignment="Left" TextWrapping="WrapWithOverflow" FontSize="18">
+                    <Run Text = "17.   Beskriv grunden for dit valg i spørgsmål 16"/>
+                    <LineBreak/>
+                    <Run Text = "        "/>
+                </TextBlock>
+                <TextBox Name="Choose1Elaborate" Width="400">
+
+                </TextBox>
+            </StackPanel>
+
+            <Button x:Name="EndQuestions" Background="LightSlateGray" Content="GEM OG AFSLUT" Click="SaveQuestionnaire_Click" Margin="0,45,0,0" Height="35" FontSize="17"/>
+
+        </StackPanel>
+    </Grid>
+</Window>

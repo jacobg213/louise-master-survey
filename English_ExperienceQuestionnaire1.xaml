@@ -1,0 +1,88 @@
+﻿<Window x:Class="WODIA_Reserach_Guide.English_ExperienceQuestionnaire1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WODIA_Reserach_Guide"
+        mc:Ignorable="d"
+        WindowState="Maximized"
+        FontSize="15"
+        Title="Questionnaire page 2" Height="500" Width="1000">
+    <Grid Margin="0,0,0,-16">
+        <StackPanel Margin="20,10,20,0">
+            <TextBlock Height="58" Width="960" HorizontalAlignment="Left" TextWrapping="WrapWithOverflow">
+                <Run Text = "Please answer these questions by stating the extent to which you agree or disagree with the statement (make one choice per question):"/>
+            </TextBlock>
+            <StackPanel Orientation="Horizontal" Height="70">
+                <TextBlock Height="70" Width="550" HorizontalAlignment="Left" TextWrapping="WrapWithOverflow">
+                    <Run Text = "6.    I would find it appropriate to be screened early in pregnancy for"/>
+                    <LineBreak/>
+                    <Run Text = "       the risk of developing preeclampsia later in pregnancy:"/>
+                </TextBlock>
+               
+                <ComboBox x:Name="agree1"  Height="25" Width="400" >
+                    <ComboBoxItem Content="Strongly agree"/>
+                    <ComboBoxItem Content="Partly agree"/>
+                    <ComboBoxItem Content="Neither nor"/>
+                    <ComboBoxItem Content="Partly disagreeing"/>
+                    <ComboBoxItem Content="Strongly disagree"/>
+                    <ComboBoxItem Content="Do not know"/>
+                </ComboBox>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal" Height="70">
+                <TextBlock Height="70" Width="550" HorizontalAlignment="Left" TextWrapping="WrapWithOverflow">
+                    <Run Text = "7.    I want to feel sickened by having to go through several"/>
+                    <LineBreak/>
+                    <Run Text = "       examinations in connection with the 1st trimester scan:"/>
+                </TextBlock>
+
+                <ComboBox x:Name="agree3"  Height="25" Width="400" >
+                    <ComboBoxItem Content="Strongly agree"/>
+                    <ComboBoxItem Content="Partly agree"/>
+                    <ComboBoxItem Content="Neither nor"/>
+                    <ComboBoxItem Content="Partly disagreeing"/>
+                    <ComboBoxItem Content="Strongly disagree"/>
+                    <ComboBoxItem Content="Do not know"/>
+                </ComboBox>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal" Height="70">
+                <TextBlock Height="70" Width="550" HorizontalAlignment="Left" TextWrapping="WrapWithOverflow">
+                    <Run Text = "8.    I want to feel more confident during the pregnancy by having"/>
+                    <LineBreak/>
+                    <Run Text = "       more examinations done in connection with the 1st trimester scan:"/>
+                </TextBlock>
+                
+                <ComboBox x:Name="agree4"  Height="25" Width="400" >
+                    <ComboBoxItem Content="Strongly agree"/>
+                    <ComboBoxItem Content="Partly agree"/>
+                    <ComboBoxItem Content="Neither nor"/>
+                    <ComboBoxItem Content="Partly disagreeing"/>
+                    <ComboBoxItem Content="Strongly disagree"/>
+                    <ComboBoxItem Content="Do not know"/>
+                </ComboBox>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal" Height="70">
+                <TextBlock Height="70" Width="550" HorizontalAlignment="Left" TextWrapping="WrapWithOverflow">
+                    <Run Text = "9.    I would like to measure blood pressure at home if it can help"/>
+                    <LineBreak/>
+                     <Run Text = "       reduce the risk of preeclampsia:"/>
+                </TextBlock>
+
+                <ComboBox x:Name="agree5"  Height="25" Width="400" >
+                    <ComboBoxItem Content="Strongly agree"/>
+                    <ComboBoxItem Content="Partly agree"/>
+                    <ComboBoxItem Content="Neither nor"/>
+                    <ComboBoxItem Content="Partly disagreeing"/>
+                    <ComboBoxItem Content="Strongly disagree"/>
+                    <ComboBoxItem Content="Do not know"/>
+                </ComboBox>
+            </StackPanel>
+            <Button x:Name="SecondPage" Background="LightSlateGray" Content="Next page" Click="SecondPage_Click" Margin="0,45,0,0" Height="40" Width="978"/>
+        </StackPanel>
+        
+        
+    </Grid>
+</Window>

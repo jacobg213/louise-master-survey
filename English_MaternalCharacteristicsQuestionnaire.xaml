@@ -1,0 +1,121 @@
+﻿<Window x:Class="WODIA_Reserach_Guide.EnglishMaternalCharacteristicsQuestionnaire"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WODIA_Reserach_Guide"
+        mc:Ignorable="d"
+        WindowState="Maximized"
+        Title="EnglishMaternalCharacteristicsQuestionnaire" Height="750" Width="800"
+        FontSize="15">
+    <Grid Margin="0,0,0,4">
+        <StackPanel Margin="20,10,20,70">
+            <TextBlock Height="58" Width="759" HorizontalAlignment="Left" TextWrapping="WrapWithOverflow">
+                This questionnaire contain questions regarding your health and prior pregnancies. These questions have shown to be important in the identification of women at high risk of developing hypertensive disorders. It is very important that every question is answered.
+            </TextBlock>
+            <StackPanel Orientation="Horizontal" Height="50">
+                <Label Content="Age:" HorizontalAlignment="Left" VerticalAlignment="Center" HorizontalContentAlignment="Left"/>
+                <TextBox x:Name="Age" Text="Age (years)" InputScope="Number" Height="20" GotFocus="Age_GotFocus" TextWrapping="NoWrap" FontSize="13" Width="115"/>
+
+                <Label Content="Height:" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                <TextBox x:Name="Height" Text="Height (cm)" InputScope="Number" Height="20" GotFocus="Age_GotFocus" TextWrapping="NoWrap" FontSize="13" Width="115"/>
+
+                <Label Content="Weight:" HorizontalAlignment="Right" VerticalAlignment="Center"/>
+                <TextBox x:Name="Weight" Text="Weight (kg)" InputScope="Number" Height="20" GotFocus="Age_GotFocus" TextWrapping="NoWrap" FontSize="13" Width="115"/>
+
+                <Label Content="Gestation age:" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+                <TextBox x:Name="GA" Text="Pregnancy week (weeks)" InputScope="Number" Height="20" GotFocus="Age_GotFocus" TextWrapping="NoWrap" FontSize="13" Width="150"/>
+            </StackPanel>
+   
+            <StackPanel Orientation="Horizontal" Height="50">
+                <Label Content="Geograhical genetic origin:" HorizontalAlignment="Left" VerticalAlignment="Center" Width="350"/>
+                <ComboBox x:Name="Race"  Height="25" Width="400" >
+                    <ComboBoxItem Content="European"/>
+                    <ComboBoxItem Content="South Asian"/>
+                    <ComboBoxItem Content="East Asian"/>
+                    <ComboBoxItem Content="African"/>
+                    <ComboBoxItem Content="Mixed"/>
+                    <ComboBoxItem Content="Other"/>
+                </ComboBox>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal" Height="50">
+                <Label Content="Conception method:" HorizontalAlignment="Left" VerticalAlignment="Center" Width="350"/>
+                <ComboBox x:Name="PregnancyConception"  Height="20" Width="400" >
+                    <ComboBoxItem Content="Spontaneous"/>
+                    <ComboBoxItem Content="Fertility treatment"/>
+                </ComboBox>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal" Height="50">
+                <Label Content="Smoker:" HorizontalAlignment="Left" VerticalAlignment="Center" Width="350"/>
+                <ComboBox x:Name="Smoker"  Height="20" Width="400" >
+                    <ComboBoxItem Content="Yes"/>
+                    <ComboBoxItem Content="No"/>
+                </ComboBox>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal" Height="50">
+                <Label Content="Chronic hypertension:" HorizontalAlignment="Left" VerticalAlignment="Center" Width="350"/>
+                <ComboBox x:Name="ChronicBP"  Height="20" Width="400" >
+                    <ComboBoxItem Content="Yes"/>
+                    <ComboBoxItem Content="No"/>
+                </ComboBox>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal" Height="50">
+                <Label Content="Systemic lupus erythematosus:" HorizontalAlignment="Left" VerticalAlignment="Center" Width="350"/>
+                <ComboBox x:Name="SLE"  Height="20" Width="400" >
+                    <ComboBoxItem Content="Yes"/>
+                    <ComboBoxItem Content="No"/>
+                </ComboBox>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal" Height="50">
+                <Label Content="Anti-phospholipid syndrome:" HorizontalAlignment="Left" VerticalAlignment="Center" Width="350"/>
+                <ComboBox x:Name="AntifosSyndrome"  Height="20" Width="400" >
+                    <ComboBoxItem Content="Yes"/>
+                    <ComboBoxItem Content="No"/>
+                </ComboBox>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal" Height="50">
+                <Label Content="Diabetes:" HorizontalAlignment="Left" VerticalAlignment="Center" Width="350"/>
+                <ComboBox x:Name="DM"  Height="20" Width="400" >
+                    <ComboBoxItem Content="Yes, type 1"/>
+                    <ComboBoxItem Content="Yes, type 2"/>
+                    <ComboBoxItem Content="No"/>
+                </ComboBox>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal" Height="50">
+                <Label Content="Birth:" HorizontalAlignment="Left" VerticalAlignment="Center" Width="350"/>
+                <ComboBox x:Name="FormerBirth"  Height="20" Width="400" >
+                    <ComboBoxItem Content="No previous child birth"/>
+                    <ComboBoxItem Content="Have given child birth WITH preeclampsia"/>
+                    <ComboBoxItem Content="Have given child birth WITHOUT preeclampsia"/>
+                </ComboBox>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal" Height="50">
+                <Label Content="Mother of the patient had preeclampsia:" HorizontalAlignment="Left" VerticalAlignment="Center" Width="350"/>
+                <ComboBox x:Name="GenericDisposed"  Height="20" Width="400" >
+                    <ComboBoxItem Content="Yes"/>
+                    <ComboBoxItem Content="No"/>
+                </ComboBox>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal" Height="50">
+                <Label Content="Interval between pregnancies:" HorizontalAlignment="Left" VerticalAlignment="Center" Width="350"/>
+                <TextBox x:Name="Interval" Text="Report 0 if no prior pregnancy (years)" InputScope="Number" Height="20" GotFocus="Age_GotFocus" Width="400" FontSize="13"/>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal" Height="50">
+                <Label Content="Pregnancy week at prior child birth:" HorizontalAlignment="Left" VerticalAlignment="Center" Width="350"/>
+                <TextBox x:Name="PastChildAge" Text="Report 0 if no prior pregnancy (weeks)" InputScope="Number" Height="20" GotFocus="Age_GotFocus" Width="400" FontSize="13"/>
+            </StackPanel>
+        </StackPanel>
+
+        <Button x:Name="EndQuestionnaire" Content="SAVE AND FINISH" Background="Black" Foreground="White" Height="33" Click="EndQuistionnaire" Margin="535,668,40,29"/>
+    </Grid>
+</Window>
