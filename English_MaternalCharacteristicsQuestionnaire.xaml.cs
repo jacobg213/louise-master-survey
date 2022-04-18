@@ -54,6 +54,9 @@ namespace WODIA_Reserach_Guide
                 participant.Interval = Int32.Parse(Interval.Text);
                 participant.PastChildAge = Int32.Parse(PastChildAge.Text);
                 participant.EndQuistionnaire = DateTime.Now;
+
+                ((MainWindow)Application.Current.MainWindow).StarQuestionnaire.Content = "START SPØRGESKEMA (FÆRDIG)";
+
                 Close();
             }
             catch

@@ -275,9 +275,13 @@ namespace WODIA_Reserach_Guide
             ArrivedAtWaitingRoom.Text = "Ankomst tid";
             ResearchID.Content = "Forskningsnummer: ";
             ArmMeasure.Text = "Arm omkreds";
+            StartExperienceQuestionnaire.Content = "UNDERSØGELSESSPØRGSMÅL";
+            StarQuestionnaire.Content = "START SPØRGESKEMA";
             FirstArm.IsChecked = false;
             FirstCuffPlacing.IsChecked = false;
             SecondCuffPlacing.IsChecked = false;
+
+            CurrentParticipant = null;
         }
 
 

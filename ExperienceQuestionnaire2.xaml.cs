@@ -41,6 +41,8 @@ namespace WODIA_Reserach_Guide
             participant.Choose5 = Choose5.Text;
             participant.Choose5Elaborate = Choose5Elaborate.Text;
 
+            ((MainWindow)Application.Current.MainWindow).StartExperienceQuestionnaire.Content = "UNDERSØGELSESSPØRGSMÅL (FÆRDIG)";
+
             SaveQuestions();
             Close();
         }

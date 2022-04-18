@@ -41,6 +41,8 @@ namespace WODIA_Reserach_Guide
             participant.Choose5 = Choose5.Text;
             participant.Choose5Elaborate = Choose5Elaborate.Text;
 
+            ((MainWindow)Application.Current.MainWindow).StartExperienceQuestionnaire.Content = "UNDERSØGELSESSPØRGSMÅL (FÆRDIG)";
+
             SaveQuestions();
             Close();
         }
@@ -52,7 +54,7 @@ namespace WODIA_Reserach_Guide
                 return;
 
             //Here  we construct the new row (e.g. all data must arrive here)
-            var newAnswer = String.Format("{0};{1};{2};{3};{4};{5};{6};{7};{8};{9};{10};{11};{12};{13};{14};{15};{16};{17};{18}", participant.ResearchNumber, participant.Page1_1, participant.Page1_2, participant.Page1_3, participant.Page1_4, participant.Page1_5, participant.agree1, participant.agree2, participant.agree3, participant.agree4, participant.Choose1, participant.Choose2, participant.Choose3, participant.Choose3Elaborate, participant.Choose4, participant.Choose4Elaborate, participant.Choose5, participant.Choose5Elaborate);
+            var newAnswer = String.Format("{0};{1};{2};{3};{4};{5};{6};{7};{8};{9};{10};{11};{12};{13};{14};{15};{16};{17}", participant.ResearchNumber, participant.Page1_1, participant.Page1_2, participant.Page1_3, participant.Page1_4, participant.Page1_5, participant.agree1, participant.agree2, participant.agree3, participant.agree4, participant.Choose1, participant.Choose2, participant.Choose3, participant.Choose3Elaborate, participant.Choose4, participant.Choose4Elaborate, participant.Choose5, participant.Choose5Elaborate);
             
             //First - we read ALL lines - in order to check for a previous version
             string[] lines = null;
