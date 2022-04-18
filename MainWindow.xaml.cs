@@ -141,7 +141,7 @@ namespace WODIA_Reserach_Guide
         {
             CurrentParticipant = new ResearchParticipant();
             CurrentParticipant.ResearchNumber = ResearchNumber.ToString();
-            ResearchID.Text = CurrentParticipant.ResearchNumber;
+            ResearchID.Content = $"Forskningsnummer: {CurrentParticipant.ResearchNumber}";
 
             Disable(sender);
 
@@ -222,7 +222,6 @@ namespace WODIA_Reserach_Guide
                         }
                 }
 
-                Disable(sender);
                 SaveData();
             }
         }
@@ -257,7 +256,6 @@ namespace WODIA_Reserach_Guide
                         }
                 }
 
-                Disable(sender);
                 SaveData();
             }
         }
@@ -277,7 +275,7 @@ namespace WODIA_Reserach_Guide
             CurrentLang = "DK";
             Lang.Content = "English";
             ArrivedAtWaitingRoom.Text = "Ankomst tid";
-            ResearchID.Text = "Forskningsnummer";
+            ResearchID.Content = "Forskningsnummer: ";
             ArmMeasure.Text = "Arm omkreds";
             FirstArm.IsChecked = false;
             FirstCuffPlacing.IsChecked = false;
