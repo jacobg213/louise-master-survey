@@ -30,11 +30,10 @@
             <StackPanel Orientation="Horizontal" Height="50">
                 <Label Content="Geograhical genetic origin:" HorizontalAlignment="Left" VerticalAlignment="Center" Width="350"/>
                 <ComboBox x:Name="Race"  Height="25" Width="400" >
-                    <ComboBoxItem Content="European"/>
+                    <ComboBoxItem Content="Caucasian"/>
                     <ComboBoxItem Content="South Asian"/>
                     <ComboBoxItem Content="East Asian"/>
                     <ComboBoxItem Content="African"/>
-                    <ComboBoxItem Content="Mixed"/>
                     <ComboBoxItem Content="Other"/>
                 </ComboBox>
             </StackPanel>

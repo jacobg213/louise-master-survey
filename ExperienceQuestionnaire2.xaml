@@ -114,7 +114,7 @@
                 <ComboBox x:Name="Choose5"  Height="25" Width="400" >
                     <ComboBoxItem Content="Selv måle blodtryk hjemme med udleveret blodtryksapparat"/>
                     <ComboBoxItem Content="Møde i afdelingen til blodtryksmåling ved sundhedspersonale"/>
-                    <ComboBoxItem Content="Mæde i afdelingen og selvstændigt klare blodtryksmålingen ved en selvmålestation"/>
+                    <ComboBoxItem Content="Møde i afdelingen og selvstændigt klare blodtryksmålingen ved en selvmålestation"/>
                     <ComboBoxItem Content="Gå til egen læge til måling af blodtryk"/>
                 </ComboBox>
             </StackPanel>

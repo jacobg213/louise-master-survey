@@ -24,7 +24,7 @@
                 <TextBox x:Name="Weight" Text="Indtast vægt (kg)" InputScope="Number" Height="20" GotFocus="Age_GotFocus" TextWrapping="NoWrap" FontSize="13" Width="115"/>
 
                 <Label Content="Gestationsalder:" HorizontalAlignment="Left" VerticalAlignment="Center"/>
-                <TextBox x:Name="GA" Text="Indtast graviditetsuge (hele uger)" InputScope="Number" Height="20" GotFocus="Age_GotFocus" TextWrapping="NoWrap" FontSize="12" Width="115"/>
+                <TextBox x:Name="GA" Text="Indtast graviditetsuge (uge)" InputScope="Number" Height="20" GotFocus="Age_GotFocus" TextWrapping="NoWrap" FontSize="12" Width="160"/>
             </StackPanel>
    
             <StackPanel Orientation="Horizontal" Height="50">

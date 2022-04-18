@@ -52,7 +52,7 @@ namespace WODIA_Reserach_Guide
                 return;
 
             //Here  we construct the new row (e.g. all data must arrive here)
-            var newAnswer = String.Format("{0};{1};{2};{3};{4};{5};{6};{7};{8};{9};{10};{11};{12};{13};{14};{15};{16};{17}", participant.ResearchNumber, participant.Page1_1, participant.Page1_2, participant.Page1_3, participant.Page1_4, participant.Page1_5, participant.agree1, participant.agree2, participant.agree3, participant.agree4, participant.Choose1, participant.Choose2, participant.Choose3, participant.Choose3Elaborate, participant.Choose4, participant.Choose4Elaborate, participant.Choose5, participant.Choose5Elaborate);
+            var newAnswer = String.Format("{0};{1};{2};{3};{4};{5};{6};{7};{8};{9};{10};{11};{12};{13};{14};{15};{16};{17};{18}", participant.ResearchNumber, participant.Page1_1, participant.Page1_2, participant.Page1_3, participant.Page1_4, participant.Page1_5, participant.agree1, participant.agree2, participant.agree3, participant.agree4, participant.Choose1, participant.Choose2, participant.Choose3, participant.Choose3Elaborate, participant.Choose4, participant.Choose4Elaborate, participant.Choose5, participant.Choose5Elaborate);
             
             //First - we read ALL lines - in order to check for a previous version
             string[] lines = null;
@@ -85,7 +85,7 @@ namespace WODIA_Reserach_Guide
             }
             else
             {
-                var QuestionHeaders = "Q1;Q2;Q3;Q4;Q5;Q6;Q7;Q8;Q9;Q10;Q11;Q12;Q13;Q14;Q15;Q16;Q17";
+                var QuestionHeaders = "ResearchNumber;Page1_1;Page1_2;Page1_3;Page1_4;Page1_5;agree1;agree2;agree3;agree4;Choose1;Choose2;Choose3;Choose3Elaborate;Choose4;Choose4Elaborate;Choose5;Choose5Elaborate";
                 QuestionHeaders += Environment.NewLine;
                 QuestionHeaders += newAnswer;
                 File.AppendAllText("QuestionAnswers.csv", QuestionHeaders);

@@ -284,6 +284,19 @@ namespace WODIA_Reserach_Guide
             SecondCuffPlacing.IsChecked = false;
         }
 
+
+        private void ReadyToLeave_Click(object sender, RoutedEventArgs e)
+        {
+            if (CurrentParticipant == null)
+                return;
+
+            CurrentParticipant.ReadyToLeave = DateTime.Now;
+
+            Disable(sender);
+
+            SaveData();
+        }
+    
         private void TimeToUltrasound_Click(object sender, RoutedEventArgs e)
         {
             if (CurrentParticipant == null)

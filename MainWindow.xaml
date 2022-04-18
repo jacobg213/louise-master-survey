@@ -59,6 +59,6 @@
         <CheckBox x:Name="SecondCuffPlacing" Content="2. manchet korrekt" Margin="0,52,342,673" Grid.Row="1" HorizontalAlignment="Right" Width="236"/>
         <CheckBox x:Name="FirstArm" Content="1. arm = højre" Margin="0,528,232,196" Grid.Row="1" HorizontalAlignment="Right" Width="194"/>
         <Button x:Name="Lang" Content="English" Background="Blue" Margin="1046,1,40,719" Grid.Row="1" Click="Lang_Click"></Button>
-        <Button x:Name="ReadyToLeave" Content="Færdig" Background="Black" Foreground="White" Margin="0,589,297,114" Click="RoomLeft_Click" Grid.Row="1" HorizontalAlignment="Right" Width="98"/>
+        <Button x:Name="ReadyToLeave" Content="Færdig" Background="Black" Foreground="White" Margin="0,589,297,114" Click="ReadyToLeave_Click" Grid.Row="1" HorizontalAlignment="Right" Width="98"/>
     </Grid>
 </Window>
