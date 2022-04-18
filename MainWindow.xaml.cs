@@ -144,8 +144,6 @@ namespace WODIA_Reserach_Guide
             ResearchID.Content = $"Forskningsnummer: {CurrentParticipant.ResearchNumber}";
 
             Disable(sender);
-
-            SaveData();
         }
 
         public void SaveData()
