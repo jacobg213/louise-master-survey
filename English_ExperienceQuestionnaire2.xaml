@@ -81,7 +81,7 @@
                 <TextBlock Height="50" Width="550" HorizontalAlignment="Left" TextWrapping="WrapWithOverflow" FontSize="18">
                     <Run Text = "14.   Which method would you prefer to answer the questionnaire"/>
                     <LineBreak/>
-                    <Run Text = "        about your health on?:"/>
+                    <Run Text = "        regardin your health on?:"/>
                 </TextBlock>
                 
                 <ComboBox x:Name="Choose4"  Height="25" Width="400" >
@@ -89,7 +89,7 @@
                     <ComboBoxItem Content="Answer the form from home before the day of the scan"/>
                     <ComboBoxItem Content="Answer the form on a tablet standing in the waiting room"/>
                     <ComboBoxItem Content="Answer the form on a tablet in the room where the blood pressure measurement is performed"/>
-                    <ComboBoxItem Content="The health professional reviews the form with me"/>
+                    <ComboBoxItem Content="The health care professional reviews the form with me"/>
                 </ComboBox>
             </StackPanel>
 
@@ -114,10 +114,10 @@
                 </TextBlock>
                 
                 <ComboBox x:Name="Choose5"  Height="25" Width="400" >
-                    <ComboBoxItem Content="Selv måle blodtryk hjemme med udleveret blodtryksapparat"/>
-                    <ComboBoxItem Content="Møde i afdelingen til blodtryksmåling ved sundhedspersonale"/>
-                    <ComboBoxItem Content="Mæde i afdelingen og selvstændigt klare blodtryksmålingen ved en selvmålestation"/>
-                    <ComboBoxItem Content="Gå til egen læge til måling af blodtryk"/>
+                    <ComboBoxItem Content="Self measuring of blood pressure at home with equipment provided from the hospital"/>
+                    <ComboBoxItem Content="Meet at the department to conduct blood pressure measurement together with a health care professional"/>
+                    <ComboBoxItem Content="Meet at the department to use the self-measuring blood pressure station by your self"/>
+                    <ComboBoxItem Content="Get your blood pressure measured at your general practitioner"/>
                 </ComboBox>
             </StackPanel>
 

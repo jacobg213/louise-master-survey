@@ -32,7 +32,7 @@
 
             <StackPanel Orientation="Horizontal" Height="70">
                 <TextBlock Height="70" Width="550" HorizontalAlignment="Left" TextWrapping="WrapWithOverflow">
-                    <Run Text = "7.    I want to feel sickened by having to go through several"/>
+                    <Run Text = "7.    I would feel sickened by having to go through several"/>
                     <LineBreak/>
                     <Run Text = "       examinations in connection with the 1st trimester scan:"/>
                 </TextBlock>
@@ -49,7 +49,7 @@
 
             <StackPanel Orientation="Horizontal" Height="70">
                 <TextBlock Height="70" Width="550" HorizontalAlignment="Left" TextWrapping="WrapWithOverflow">
-                    <Run Text = "8.    I want to feel more confident during the pregnancy by having"/>
+                    <Run Text = "8.    I would feel more confident during the pregnancy by having"/>
                     <LineBreak/>
                     <Run Text = "       more examinations done in connection with the 1st trimester scan:"/>
                 </TextBlock>
@@ -68,7 +68,7 @@
                 <TextBlock Height="70" Width="550" HorizontalAlignment="Left" TextWrapping="WrapWithOverflow">
                     <Run Text = "9.    I would like to measure blood pressure at home if it can help"/>
                     <LineBreak/>
-                     <Run Text = "       reduce the risk of preeclampsia:"/>
+                     <Run Text = "       identify the risk of preeclampsia:"/>
                 </TextBlock>
 
                 <ComboBox x:Name="agree4"  Height="25" Width="400" >

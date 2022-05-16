@@ -30,7 +30,7 @@
             <StackPanel Orientation="Horizontal" Height="50">
                 <Label Content="Geografisk oprindelse:" HorizontalAlignment="Left" VerticalAlignment="Center" Width="350"/>
                 <ComboBox x:Name="Race"  Height="25" Width="400" >
-                    <ComboBoxItem Content="Kaukatisk"/>
+                    <ComboBoxItem Content="Kaukasisk"/>
                     <ComboBoxItem Content="Sydasiatisk"/>
                     <ComboBoxItem Content="Østasiatisk"/>
                     <ComboBoxItem Content="Afrikansk"/>

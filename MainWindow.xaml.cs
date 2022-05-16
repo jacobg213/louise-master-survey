@@ -504,5 +504,11 @@ namespace WODIA_Reserach_Guide
                     break;
             }
         }
+
+        private void GetDataClick(object sender, RoutedEventArgs e)
+        {
+            var dataWindow = new Data();
+            dataWindow.Show();
+        }
     }
 }
